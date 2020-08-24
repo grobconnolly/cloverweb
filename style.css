@@ -1,0 +1,133 @@
+
+html, body{
+  height: 90%;
+  margin:0;
+}
+
+.heroBox {
+  background-image: url(./assets/images/double-bubble-outline/double-bubble-outline.png);
+  height: 80vh;
+}
+
+#logo{
+  width: 35%;
+  padding-top: 3.7em;
+}
+
+#plus {
+    padding-top: 2.4%;
+    font-size: 60px;
+    color: gray;
+}
+
+.heroText{
+    font-size: 60px;
+    padding-top: .5em;
+    color: #616468;
+}
+
+
+#imageCard{
+  width: 30000px;
+}
+
+.cardGroup{
+  padding-top: 2%;
+  align-content: center;
+}
+
+
+.card{
+  height:100%;
+}
+
+
+
+/* ipad pro */
+
+@media screen and (max-width: 1024px) {
+  #plus {
+    padding-top: 5.5%;
+    font-size: 60px;
+    color: gray;  
+    }
+    #logo{
+      width: 65%;
+      padding-top: 20%;
+    }
+
+
+/* ipad */
+@media screen and (max-width: 768px) {
+  #plus {
+    padding-top: 3.7%;
+    font-size: 35px;
+    color: gray;  
+}
+}
+
+.logo {
+  padding-top: 2em;
+  width: 70%;
+}
+
+.heroText{
+  font-size: 40px;
+  padding-top: .5em;
+  color: #616468;
+}
+#buttonText{
+margin-top: 5px;
+}
+}
+
+/* ipad */
+@media screen and (max-width: 768px) {
+  #plus {
+    padding-top: 3.7%;
+    font-size: 35px;
+    color: gray;  
+}
+}
+
+.logo {
+  padding-top: 2em;
+  width: 70%;
+}
+
+.heroText{
+  font-size: 40px;
+  padding-top: .5em;
+  color: #616468;
+}
+#buttonText{
+margin-top: 5px;
+}
+
+
+/* iphone x */
+@media screen and (max-width: 375px) {
+  #plus {
+    padding-top: 5.7%;
+    font-size: 25px;
+    color: gray;  
+}
+
+.logo {
+  padding-top: 2em;
+  width: 70%;
+}
+
+.heroText{
+  font-size: 20px;
+  padding-top: .5em;
+  color: #616468;
+}
+#buttonText{
+margin-top: 5px;
+font-size: 10px;
+}
+.limitedText {
+  font-size: 12px;
+}
+}
