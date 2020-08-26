@@ -1,133 +1,230 @@
+*{
+  font-family: 'Overpass', sans-serif;
 
-html, body{
-  height: 90%;
-  margin:0;
-}
-
-.heroBox {
-  background-image: url(./assets/images/double-bubble-outline/double-bubble-outline.png);
-  height: 80vh;
-}
-
-#logo{
-  width: 35%;
-  padding-top: 3.7em;
-}
-
-#plus {
-    padding-top: 2.4%;
-    font-size: 60px;
-    color: gray;
-}
-
-.heroText{
-    font-size: 60px;
-    padding-top: .5em;
-    color: #616468;
 }
 
 
-#imageCard{
-  width: 30000px;
-}
-
-.cardGroup{
-  padding-top: 2%;
-  align-content: center;
-}
-
-
-.card{
-  height:100%;
-}
-
-
-
-/* ipad pro */
-
-@media screen and (max-width: 1024px) {
-  #plus {
-    padding-top: 5.5%;
-    font-size: 60px;
-    color: gray;  
-    }
-    #logo{
-      width: 65%;
-      padding-top: 20%;
-    }
-
-
-/* ipad */
-@media screen and (max-width: 768px) {
-  #plus {
-    padding-top: 3.7%;
-    font-size: 35px;
-    color: gray;  
-}
-}
-
-.logo {
-  padding-top: 2em;
-  width: 70%;
-}
-
-.heroText{
-  font-size: 40px;
-  padding-top: .5em;
-  color: #616468;
-}
-#buttonText{
-margin-top: 5px;
-}
-}
-
-/* ipad */
-@media screen and (max-width: 768px) {
-  #plus {
-    padding-top: 3.7%;
-    font-size: 35px;
-    color: gray;  
-}
-}
-
-.logo {
-  padding-top: 2em;
-  width: 70%;
-}
-
-.heroText{
-  font-size: 40px;
-  padding-top: .5em;
-  color: #616468;
-}
-#buttonText{
-margin-top: 5px;
-}
-
-
-/* iphone x */
-@media screen and (max-width: 375px) {
-  #plus {
-    padding-top: 5.7%;
-    font-size: 25px;
-    color: gray;  
-}
-
-.logo {
-  padding-top: 2em;
-  width: 70%;
-}
-
-.heroText{
-  font-size: 20px;
-  padding-top: .5em;
-  color: #616468;
-}
-#buttonText{
-margin-top: 5px;
-font-size: 10px;
-}
-.limitedText {
+li{
   font-size: 12px;
+  justify-content: left;
+}
+
+.heroBottom{
+  background-color: white;
+}
+.heroSection{
+  background-color: #F8FBFC;
+}
+
+.liRight{
+  text-align: left;
+  margin-left: 3em;
+}
+
+
+.navbar{
+  background-color: #F8FBFC;
+}
+
+li.borderless { border: 0 none; 
+padding-top: 0;
+}
+
+.heroText {
+  font-weight: 900;
+  font-size: 24px;
+  color: #373E42;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.subHeroText{
+  font-size: 12px;
+  color: rgb(107, 113, 117);
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.subHeroTextBottom{
+  font-size: 12px;
+  color: rgb(107, 113, 117);
+  padding-top: 1px;
+
+}
+
+.setupText{
+  font-size: 9px;
+  color: rgb(107, 113, 117);
+  margin-bottom: 0.3em;
+  padding-top: 1em;
+}
+.cancelAnytime{
+  font-size: 9px;
+  color: rgb(107, 113, 117);
+  padding-bottom: 1em;
+}
+
+.mainSubjects{
+  font-weight: 100;
+  font-size: 28px;
+  padding-top: 1em;
+  padding-bottom: .2em;
+}
+
+.subjectHeader{
+  font-weight: 400;
+  font-weight: 100;
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: .2em;
+}
+
+.readyToSignUp{
+  font-weight: 100;
+  font-size: 18px;
+  padding-top: 0;
+  margin-bottom: .1em;
+}
+
+.subjectContent{
+  font-size: 10px;
+  color: rgb(107, 113, 117);
+}
+
+.secondSubject{
+  padding-top: 15px;
+}
+
+.thirdTitle{
+  padding-top: 15px
+}
+
+.calButton{
+  padding-top: 400px;
+}
+
+.featureIconLeft1{
+  left: 10%;
+}
+.featureTextLeft1{
+  left: 6%;
+}
+
+.featureIconRight2{
+  left: 5%;
+}
+
+.featureTextRight2{
+  left: 1%;
+}
+
+.robpic{
+  width: 60%;
+}
+
+.name{
+  font-size: 10px;
+  padding-bottom: 0;
+  margin-bottom: 0px;
+}
+.title{
+  font-size: 8px;
+ 
+}
+
+.sectionSpace{
+  margin-top: 0px;
+  padding-top: 1.2em;
+}
+.backGround{
+  background-color: #F8FBFC;
+}
+
+.tjFooterLogo{
+width: 35%;
+margin-left: 30%;
+height: auto;
+}
+
+#noBorder{
+  border: none;
+  width: 30%;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  background-color: #F8FBFC;
+}
+
+.footerText{
+  font-size: 12px;
+  padding-bottom: .5em;
+}
+
+.fullWidth{
+  margin-right:0px;
+  margin-left:0px;
+  padding-right: 0px;
+  padding-left: 0px;
+
+}
+
+.footerLogo{
+  width: 50%;
+  padding-top: 8%;
+  padding-bottom: 4%;
+}
+
+.footerTextCopy{
+  font-style: normal;
+  color:rgb(107, 113, 117);
+  font-size: 10px;
+}
+
+
+@media only screen  and (min-width : 1224px) {
+.heroText{
+  font-size: 64px;
+  padding-top: 4%;
+  padding-left: 20%;
+  padding-right: 20%;
+}  
+.subHeroText{
+  font-size: 20px;
+  word-spacing: .2em;
+}
+
+.setupText, .cancelAnytime{
+  font-size: 20px
+}
+
+.btn-primary{
+  width: 150px;
+}
+
+.mainSubjects{
+  font-size: 40px;
+  font-weight:900;
+}
+.subjectContent{
+  font-size:20px;
+}
+
+.name{
+  font-size: 20px;
+  font-weight: 400;
+}
+.title{
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.footerLogo{
+  width: 20%;
+  margin-top: 0;
+  padding-top: 2em;
+  padding-bottom: 10px;
+}
+
+.footerText{
+  font-size: 15px;
 }
 }
