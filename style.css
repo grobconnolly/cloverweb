@@ -3,6 +3,68 @@
 
 }
 
+
+.extraPad{
+  padding-bottom: 4%;
+}
+
+.question1{
+  border: 1px solid black;
+}
+.priceBox{
+  border-width: thin;
+  border-color: #E9EEF1;
+  border-style: solid;
+  padding-top: 3%;
+ }
+
+ .dollarSymbol, .mo, .amount{
+   padding-bottom: 4%;
+ }
+
+#extraSpace{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+ .dollarSymbol{
+   font-size: 20px;
+   font-weight: 400;
+ }
+
+.amount{
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.mo{
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+.faq{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#priceIcons{
+  padding-left: 20%;
+}
+
+.iconFeatures{
+  padding-left: 0%;
+}
+
+.iconTextPrice{
+  padding-left: 3%;
+  font-size: 14px;
+  font-weight: 200;
+  padding-top: 1%;
+}
+
+
+
+
 .iconUs{
   left: 27%;
   padding-top: 2%; 
@@ -16,6 +78,11 @@
   font-size: 20px;
   padding-right: 30px;
   padding-left: 30px;
+}
+
+#heroButtonPricing{
+  font-size: 20px;
+  width: 300px;
 }
 
 li{
@@ -76,6 +143,7 @@ padding-top: 0;
   margin-bottom: 0.3em;
   padding-top: 1em;
 }
+
 .cancelAnytime{
   font-size: 14px;
   color: rgb(107, 113, 117);
@@ -86,6 +154,13 @@ padding-top: 0;
   font-weight: 400;
   font-size: 28px;
   padding-top: 1em;
+  padding-bottom: .2em;
+}
+
+.mainSubjectsFaq{
+  font-weight: 400;
+  font-size: 28px;
+  padding-top: 8em;
   padding-bottom: .2em;
 }
 
@@ -218,9 +293,7 @@ height: auto;
   word-spacing: .2em;
 }
 
-.setupText, .cancelAnytime{
-  font-size: 20px
-}
+
 
 .btn-primary{
   width: 150px;
