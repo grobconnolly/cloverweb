@@ -67,7 +67,8 @@
 
 .iconUs{
   left: 27%;
-  padding-top: 2%; 
+  padding-top: 3%; 
+  padding-bottom: 4%;
 }
 .textIcon{
   color: black;
@@ -139,7 +140,7 @@ padding-top: 0;
 
 .setupText{
   font-size: 16px;
-  color: black;
+  color: rgb(107, 113, 117);
   margin-bottom: 0.3em;
   padding-top: 1em;
 }
@@ -157,11 +158,19 @@ padding-top: 0;
   padding-bottom: .2em;
 }
 
+.mainSubjectsWhy{
+  font-weight: 400;
+  font-size: 28px;
+  padding-top: 2em;
+  padding-bottom: .2em;
+}
+
 .mainSubjectsFaq{
   font-weight: 400;
   font-size: 28px;
   padding-top: 8em;
   padding-bottom: .2em;
+
 }
 
 .subjectHeader{
@@ -180,7 +189,7 @@ padding-top: 0;
 }
 
 .subjectContent{
-  font-size: 18px;
+  font-size: 16px;
   color: rgb(107, 113, 117);
   font-weight: 200;
 }
@@ -213,7 +222,7 @@ padding-top: 0;
 }
 
 .robpic{
-  width: 60%;
+ width: 200px;
 }
 
 .name{
@@ -223,7 +232,7 @@ padding-top: 0;
 }
 .title{
   font-size: 8px;
- 
+ padding-bottom: 2em;
 }
 
 .sectionSpace{
@@ -235,9 +244,8 @@ padding-top: 0;
 }
 
 .tjFooterLogo{
-width: 35%;
-margin-left: 30%;
-height: auto;
+max-width: 100px;
+
 }
 
 #noBorder{
@@ -279,6 +287,21 @@ height: auto;
   .title{
     font-size: 14px;
     font-weight: 400;
+  }
+
+
+
+   @media only screen  and (min-width : 980px){
+    .mainSubjects, .mainSubjectsWhy{
+    font-size: 32px;
+    }
+
+    .subjectContent{
+      font-size: 22px;
+    }
+    }
+
+
 
 
 @media only screen  and (min-width : 1224px) {
