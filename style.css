@@ -14,17 +14,35 @@
   padding-top: 15%;
 }
 
-
-  a:link {
-    color: white;}
-
-  a:visited {
-    color: white;}
-  a:hover {
-    color: white;} 
-  a:active {
-    color: white;}
   
+
+/* unvisited link */
+a:link {
+  color:white;
+}
+
+/* visited link */
+a:visited {
+  color:white;
+}
+
+/* mouse over link */
+a:hover {
+  color:white;
+}
+
+/* selected link */
+a:active {
+  color:white;
+}
+
+a.footer1 {color: rgb(52, 52, 52);}
+a.footer2 {color: rgb(52, 52, 52);}
+a.footer3 {color: rgb(52, 52, 52);}
+a.footer4 {color: rgb(52, 52, 52);}
+a.footer5 {color: rgb(52, 52, 52);}
+
+
 
 
 body { overflow-x: hidden; }
