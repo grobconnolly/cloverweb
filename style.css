@@ -5,7 +5,17 @@
   font-weight: 300;
 }
 
+.questionButton{
+  height: 200%;
+  width: 80%;
+}
+
+.btnSpace{
+  padding-top: 15%;
+}
+
 body { overflow-x: hidden; }
+
 
 .service-5 h1, .service-5 h2, .service-5 h3, .service-5 h4, .service-5 h5, .service-5 h6 {
   color: #3e4555;
