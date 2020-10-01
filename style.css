@@ -43,18 +43,7 @@
     padding: 30px;
 }
 
-.service-5 .wrap-service5-box .text-success-gradiant {
-	background: #f47820;
-	background: -webkit-linear-gradient(legacy-direction(to right), #f47820 0%, #f47820 100%);
-	background: -webkit-gradient(linear, left top, right top, from(#f47820), to(#f47820));
-	background: -webkit-linear-gradient(left, #f47820 0%, #f47820 100%);
-	background: -o-linear-gradient(left, #f47820 0%, #f47820 100%);
-	background: linear-gradient(to right, #f47820 0%, #f47820 100%);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
-}
+
 
 .service-5 .wrap-service5-box .icon-size{
 	font-size: 45px;
