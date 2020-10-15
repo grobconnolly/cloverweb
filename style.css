@@ -15,7 +15,9 @@
   padding-top: 15%;
 }
 
-
+.imgsize{
+  width: 80%;
+}
 
 /* unvisited link */
 a:link {
