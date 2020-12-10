@@ -5,9 +5,12 @@
   font-weight: 300;
 }
 
+<<<<<<< HEAD
 .liBlog{
   font-size: 20px;
 }
+=======
+>>>>>>> 356036af9c13696f1ca81c98c49627b7e63ac04f
 
 .questionButton{
   height: 200%;
@@ -18,12 +21,18 @@
   padding-top: 15%;
 }
 
+<<<<<<< HEAD
 #sign-up{
   background: #F47820;
   border-radius: 10px;
   color: white;
 }
   
+=======
+.imgsize{
+  width: 80%;
+}
+>>>>>>> 356036af9c13696f1ca81c98c49627b7e63ac04f
 
 /* unvisited link */
 a:link {
@@ -119,6 +128,7 @@ body { overflow-x: hidden; }
 }
 
 
+  
 #textWhite{
   color: white;
   font-size: 25px;
@@ -456,7 +466,16 @@ max-width: 100px
     font-weight: 400;
   }
 
+.legalText{
+  font-size: 12px;
+  padding-right: 15%;
+  padding-left: 15%;
+}
 
+
+li{
+  font-size: 10px;
+}
 
    @media only screen  and (min-width : 980px){
     .mainSubjects, .mainSubjectsWhy{
