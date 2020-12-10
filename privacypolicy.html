@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -13,33 +14,26 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
+        <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
 
     <title>Clover Networks and TextJet Loyalty</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light">
-        <a href="./index.html" class="navbar-brand">
-            <img src="./assets/images/TextJet.png" height="28" alt="CoolBrand">
-        </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    
+    
+    <div class="container-fluid" id="navbar">
 
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav">
-                <a href="#whatIsTextJet" class="nav-item nav-link">What is TextJet?</a>
-                <a href="https://support.textjet.com/en/" class="nav-item nav-link">FAQ</a>
-                <a href="#pricingSection" class="nav-item nav-link">Pricing</a>
+    </div>
+    <script type="text/javascript">
+        $(function () {
+            $("#navbar").load("navbar.html");
+        });
+    </script>
 
-            </div>
-            <div class="navbar-nav ml-auto">
-                <a href="#pricingSection" class="nav-item nav-link">Sign Up</a>
-                <a href="https://app.textjet.com/app/login" class="nav-item nav-link">Login</a>
-            </div>
-        </div>
-
-    </nav>
 
     <div class="container-flex heroSection">
         <div class="row">
@@ -142,7 +136,7 @@ To exercise your rights or to obtain more information, you may contact us: ● B
 <br>
 ● By telephone at: 1(855)9684430
 <br>
-● By US mail at: 4727 Glen St, La Mesa, CA 91941 
+● By US mail at: PO Box 294, La Mesa, CA 91944
 <br>
 This Privacy Policy may be updated from time to time. You should check back periodically to be advised on any changes. If you have difficulty accessing any material provided through this Privacy Policy because of a disability, please contact us in writing or by telephone and we will work with you to make the information available.
 
@@ -151,40 +145,18 @@ This Privacy Policy may be updated from time to time. You should check back peri
 
 </div>
 
-<div class="container-flex footer">
-        <div class="row">
-            <div class="col-4 text-center">
-                <img class="footerLogo" src="./assets/images/textjet_fitted.png" alt="textjet logo" />
-            </div>
-            <div class="col-4">
-                <div class="col-12 text-center footerText"><a class="footer1" href="#pricingSection">Pricing</a></div>
-                <div class="col-12 text-center footerText"><a href="https://support.textjet.com/en/" class="footer1">FAQ</a></div>
-                <div class="col-12 text-center footerText"><a class="footer1" href="mailto:incp632k@textjetcom.intercom-mail.com">Contact Support</a></div>
-            </div>
-            <div class="col-4">
-                <div class="col-12 text-center footerText"><a class="footer1" href="privacypolicy.html">Privacy Policy</a></div>
-                <div class="col-12 text-center footerText"><a href="termsofservice.html" class="footer1">Terms of Service</a></div>
-                <div class="col-12 text-center footerText"><a href="anti-spam.html" class="footer1">Anti-Spam Policy</a></div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 text-center footerTextCopy">
-                © Copyright 2020 Textjet LLC
-            </div>
-        </div>
+<!---  Footer -->
 
-        
-<!-- Intercom Code-->
-        <script>
-                window.intercomSettings = {
-                  app_id: "incp632k"
-                };
-              </script>
-              
-              <script>
-              // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/incp632k'
-              (function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',w.intercomSettings);}else{var d=document;var i=function(){i.c(arguments);};i.q=[];i.c=function(args){i.q.push(args);};w.Intercom=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/incp632k';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
-              </script>     
+<div class="container-fluid" id="footer">
+
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#footer").load("footer.html");
+    });
+</script>
+
+<!-- Footer -->  
 </body>
 
 </html>

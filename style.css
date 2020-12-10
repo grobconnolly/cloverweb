@@ -5,6 +5,10 @@
   font-weight: 300;
 }
 
+.liBlog{
+  font-size: 20px;
+}
+
 .questionButton{
   height: 200%;
   width: 80%;
@@ -14,6 +18,11 @@
   padding-top: 15%;
 }
 
+#sign-up{
+  background: #F47820;
+  border-radius: 10px;
+  color: white;
+}
   
 
 /* unvisited link */
@@ -177,7 +186,8 @@ body { overflow-x: hidden; }
 .footer {
   padding: 30px 0;
   background: #eee !important;
-  width: 100%}
+  width: 100%;
+ }
 
 .priceText{
 font-size: 15px;
