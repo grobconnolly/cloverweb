@@ -5,12 +5,9 @@
   font-weight: 300;
 }
 
-<<<<<<< HEAD
 .liBlog{
   font-size: 20px;
 }
-=======
->>>>>>> 356036af9c13696f1ca81c98c49627b7e63ac04f
 
 .questionButton{
   height: 200%;
@@ -21,18 +18,12 @@
   padding-top: 15%;
 }
 
-<<<<<<< HEAD
 #sign-up{
   background: #F47820;
   border-radius: 10px;
   color: white;
 }
   
-=======
-.imgsize{
-  width: 80%;
-}
->>>>>>> 356036af9c13696f1ca81c98c49627b7e63ac04f
 
 /* unvisited link */
 a:link {
