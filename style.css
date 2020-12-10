@@ -5,7 +5,7 @@
   font-weight: 300;
 }
 
-.liBlog{
+#liBlog{
   font-size: 20px;
 }
 
@@ -105,7 +105,7 @@ body { overflow-x: hidden; }
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
+
 }
 
 .service-5 .wrap-service5-box .icon-size{
