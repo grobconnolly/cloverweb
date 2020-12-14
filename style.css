@@ -190,6 +190,10 @@ body { overflow-x: hidden; }
   width: 100%;
  }
 
+.demoText{
+  padding-top: 1em;
+}
+
 .priceText{
 font-size: 15px;
 font-weight: 100;
